@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "545584345943",
+    "firebase_url": "https://mineapps-1st.firebaseio.com",
+    "project_id": "mineapps-1st",
+    "storage_bucket": "mineapps-1st.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545584345943:android:dda91e9b6ac4ea18",
+        "android_client_info": {
+          "package_name": "com.mine.firstapp.mine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545584345943-9m9cnj7ffo0qjqeg29r8s72ajatetk9m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY9hE_kmiC8gljzvysgXwADz_OVtH-dhE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545584345943:android:22d34edccb4bae6f",
+        "android_client_info": {
+          "package_name": "com.mine.project.mineapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545584345943-9m9cnj7ffo0qjqeg29r8s72ajatetk9m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY9hE_kmiC8gljzvysgXwADz_OVtH-dhE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

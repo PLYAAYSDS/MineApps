@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="292dp"
+            android:layout_height="120dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="31dp"
+            app:srcCompat="@drawable/lg"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <EditText
+            android:id="@+id/uname"
+            android:layout_width="311dp"
+            android:layout_height="43dp"
+            android:layout_alignStart="@+id/pass"
+            android:layout_below="@+id/imageView2"
+            android:layout_marginTop="31dp"
+            android:hint="Email"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="251dp" />
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="311dp"
+            android:layout_height="43dp"
+            android:layout_below="@+id/uname"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="17dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="251dp" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="311dp"
+            android:layout_height="41dp"
+            android:layout_alignStart="@+id/btndaftar"
+            android:layout_below="@+id/pass"
+            android:layout_marginTop="26dp"
+            android:background="#e0f5a4"
+            android:onClick="login"
+            android:text="Login"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="387dp" />
+
+        <Button
+            android:id="@+id/btndaftar"
+            android:layout_width="311dp"
+            android:layout_height="41dp"
+            android:layout_below="@+id/btnLogin"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:background="#beb6b6"
+            android:onClick="daftar"
+            android:text="Register"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="387dp" />
+
+    </RelativeLayout>
+
+</ScrollView>

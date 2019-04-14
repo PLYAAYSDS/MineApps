@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Mine</string>
+    <string name="minimum_password">password min 6 character</string>
+    <string name="auth_failed">Login failed</string>
+    <string name="title_activity_home">Mine</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="string_profil">Profil</string>
+    <string name="string_Topik">Daftar Pertanyaan</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="string_kontak">Kontak</string>
+</resources>
